@@ -15,3 +15,9 @@ cv2.circle(image, maxLoc,67, (0,0, 255), 10)
 
 # display the results of our newly improved method
 im=cv2.resize(image, (960,800))
+
+#Display the output
+cv2.imshow("Output",im)
+
+#Hold the output screen till user does not press enter
+cv2.waitKey(0)
